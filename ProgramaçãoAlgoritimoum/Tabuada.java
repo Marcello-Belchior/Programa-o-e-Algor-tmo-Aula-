@@ -7,16 +7,16 @@ public class Tabuada {
         Scanner ler = new Scanner(System.in);
 
         int n;
+        System.out.println("Digitr o número no qual você quer a tabuada");
+        n = ler.nextInt();
 
-        for(n = 1; n<=10; n++){
+        for(int i = 1; i<=10; i++){
 
-            for(int i = 1; i<=10; i++){
-
-                System.out.println(n + " x " + i + " = " + (n*i));
-
-            }
             System.out.println("----------------------------");
+            System.out.println(n + " x " + i + " = " + (n*i));
+
         }
 
+        System.out.println("----------------------------");
     }
 }
